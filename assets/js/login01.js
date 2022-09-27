@@ -2,7 +2,7 @@
  * @Author: zhoujie 18326485422@163.com
  * @Date: 2022-09-25 20:22:07
  * @LastEditors: zhoujie 18326485422@163.com
- * @LastEditTime: 2022-09-27 14:55:44
+ * @LastEditTime: 2022-09-27 15:34:36
  * @FilePath: \大事件自己尝试\assets\js\login01.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -42,6 +42,7 @@ $(function () {
 
   // 监听注册表单的提交事件
   // const baseUrl = 'http://www.liulongbin.top:3007'
+  // const baseUrl = 'http://big-event-api-t.itheima.net'
   $('#form_reg').on('submit', function (e) {
     // 阻止表单默认提交事件
     e.preventDefault()
